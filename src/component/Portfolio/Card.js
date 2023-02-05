@@ -45,19 +45,17 @@ const Card = (props) => {
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate distinctio assumenda explicabo veniam temporibus
-                eligendi.
-              </p>
-              <p>
-                Consectetur adipisicing elit. Cupiditate distinctio assumenda.
-                dolorum alias suscipit rerum maiores aliquam earum odit, nihil
-                culpa quas iusto hic minus!
+                The application is designed to solve a specific problem for users. 
+                It uses cutting-edge technology to offer a friendly and efficient experience. 
+                The application interface is simple and easy to use. 
+                Users can found the application in my github.
               </p>
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
-                  VIEW PROJECT<i class="fas fa-chevron-right"></i>
-                </button>
+                <form action="https://github.com/salimdrch?tab=repositories">
+                  <button type="submit" className="btn_shadow">
+                    VIEW PROJECT<i class="fas fa-chevron-right"></i>
+                  </button>
+                </form>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i class="fas fa-times"></i>

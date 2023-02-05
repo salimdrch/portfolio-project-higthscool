@@ -56,7 +56,7 @@ button {
   box-shadow: -1px -1px 24px 0px rgb(0 0 0);
 }
 .btn_shadow:hover {
-  background: #ff014f;
+  background: #08fdd8;
   color: white;
   transform: translateY(-10px);
 }
@@ -80,7 +80,7 @@ button {
   margin: 50px 0 50px 0;
 }
 .heading h4 {
-  color: #ff014f;
+  color: #08fdd8;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -96,6 +96,10 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
 }
+
+.btn_shadow:hover p{
+  color: black !important;
+}
 p {
   color: rgba(198, 201, 216, 0.75) !important;
 }
@@ -103,7 +107,7 @@ p {
   text-align: center;
 }
 .primary_color {
-  color: #ff014f;
+  color: #08fdd8;
 }
 textarea,
 input {
@@ -115,7 +119,7 @@ input {
 }
 /*----------Footer---------*/
 footer {
-  margin: 20% 0 10% 0;
+  margin: 10% 0 10% 0;
 }
 footer p {
   margin-top: 30px;

@@ -1,34 +1,77 @@
-.modal-blog.modal,
-.modal-blog.overlay {
-  overflow: scroll;
+
+/*******************************************************/
+.Skills .heading h1 {
+  font-size: 40px;
+  text-align: center;
 }
-.modal-blog.modal .modal-content {
-  position: relative;
-  top: 10%;
-  left: 0;
-  max-width: 70%;
+.Skills .content {
+  max-width: 85%;
   margin: auto;
-  margin-bottom: 10%;
 }
-.modal-blog .modal-content .left,
-.modal-blog .modal-content .right {
-  width: 100%;
-  padding: 0;
-  margin-top: 30px;
+.Skills .box {
+  padding: 40px;
 }
-/*----------blog_contact--------*/
+.Skills hr {
+  margin: 30px 0 30px 0;
+  border: 1px solid #e3e9ed;
+  background-color: #e3e9ed;
+}
+.Skills .rate .btn_shadow {
+  color: #08fdd8;
+  padding: 15px 30px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.Skills p {
+  font-size: 18px;
+  transition: 0.5s;
+}
+.Skills .box {
+  margin-bottom: 40px;
+  position: relative;
+}
+.Skills .btn_shadow:hover {
+  transform: translate(0);
+}
+.Skills .box:hover .btn_shadow {
+  background: #08fdd8;
+  box-shadow: none;
+  color: white;
+}
+.Skills .box:hover p {
+  color: white;
+}
 
-.blog_contact .left,
-.blog_contact .right {
-  margin: 0 25px 0 0;
+.Skills .left::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 0;
+  height: 118vh;
+  width: 5px;
+  background: #d9dee2;
+  z-index: -2;
+}
+.Skills .box::after {
+  content: "";
+  position: absolute;
+  top: 13%;
+  left: -8%;
+  height: 5px;
+  width: 50px;
 }
 
-/*----------blog_contact--------*/
+.Skills .box:hover.box:before {
+  background: #08fdd8;
+}
 @media (max-width: 768px) {
-  .modal-blog.modal .modal-content {
-    max-width: 90%;
+  .Skills .d_flex {
+    margin-top: 5%;
+    flex-direction: column;
   }
-  .modal-blog.modal .modal-content {
-    margin-bottom: 20%;
+  .Skills .left::after {
+    top: 14%;
+    height: 105vh;
   }
 }
+

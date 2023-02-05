@@ -15,7 +15,6 @@ const Header = () => {
       <header className="header">
         <div className="container d_flex">
           <div className="logo">
-            <img src={logo} alt="" />
           </div>
 
           <div className="navlink">
@@ -31,16 +30,16 @@ const Header = () => {
                 <a href="#features">features</a>
               </li>
               <li>
-                <a href="#portfolio">portfolio</a>
+                <a href="#project">project</a>
               </li>
               <li>
                 <a href="#resume">resume</a>
               </li>
               <li>
-                <a href="#clients">clients</a>
+                <a href="#skills">skills</a>
               </li>
               <li>
-                <a href="#blog">blog</a>
+                <a href="#clients">clients</a>
               </li>
               <li>
                 <a href="#contact">contact</a>

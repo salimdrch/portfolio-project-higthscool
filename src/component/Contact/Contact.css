@@ -32,7 +32,7 @@
 }
 .Contact .right button {
   width: 100%;
-  color: #ff014f;
+  color: #08fdd8;
 }
 .Contact .right button:hover {
   color: white;
@@ -53,4 +53,12 @@
 
 .btn_shadow .fab {
   color: black;
+}
+.btn_shadow .fa {
+  color: black;
+}
+
+.d_center {
+  display: flex;
+  justify-content: center;
 }

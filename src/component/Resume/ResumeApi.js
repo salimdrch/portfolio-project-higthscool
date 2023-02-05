@@ -18,36 +18,37 @@ const ResumeApi = [
   {
     id: 3,
     category: "education",
-    year: "University of Studies (2016 - 2017) ",
+    year: "Diderot Hightschool (2016 - 2017) ",
     title:
       "Bachelor of  Science and Technology in Industry and Sustainable Development",
-    desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    desc: "1st year of Bachelor involving Mathematics, Programming, Sciences modules    ",
     rate: "4.80/5 ",
   },
   {
     id: 4,
     category: "experience",
-    year: "BSE In CSE (2004 - 2008) ",
-    title: "Diploma in Web Development",
-    desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    year: "Intership in BCC (2021 - 2022) ",
+    title: "Software Development",
+    desc: "Development of a booking platform meeting room. Collection of Client's needs and Specifications Charges Development of the Platform with Windev Creation of Member Areas Integration of Data with HFSQL, Mail confirmation management by SMTP Creation of a notification system",
     rate: "4.70/5 ",
   },
   {
     id: 5,
     category: "experience",
-    year: "Job at Rainbow-Themes (2008 - 2016) ",
-    title: "The Personal Portfolio Mystery",
-    desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    year: "Job at Comorimmo (2020 - 2021) ",
+    title: "Web Development",
+    desc: "Development of a real estate service site. Development of the Platform with WebNode.",
     rate: "4.95/5 ",
   },
   {
     id: 6,
     category: "experience",
-    year: "Works at Plugin Development (2016 - 2020) ",
-    title: "Diploma in Computer Science",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "5.00/5 ",
+    year: " (2022 - 2023) ",
+    title: "My Personal Portfolio ",
+    desc: "Development of my personnal Portfolio in ReactJs",
+    rate: "4.95/5 ",
   },
+
 ];
 
 export default ResumeApi;

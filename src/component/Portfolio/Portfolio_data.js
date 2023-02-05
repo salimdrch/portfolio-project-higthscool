@@ -1,50 +1,30 @@
 import img1 from "./chatroom.png";
 import img2 from "./cryptowl.png";
 import img3 from "./golfGame.png";
-import img4 from "./designWatch.png";
 
 const Portfolio_data = [
   {
     id: 1,
     category: "DEVELOPMENT",
-    totalLike: "600",
-    title: "The services provide for design ",
+    title: "Chat Room ",
     image: img1,
+    desc: "The Blockchain Chatbot Application provides information on Blockchain by answering users' questions. It uses natural language recognition to understand requests and provide accurate responses. This application is useful for both beginners and experts in Blockchain.",
+
   },
   {
     id: 2,
     category: "APPLICATION",
-    totalLike: "750",
     title: "Cryptowl - ChatBot",
     image: img2,
+    desc: "The Blockchain Chatbot Application provides information on Blockchain by answering users' questions. It uses natural language recognition to understand requests and provide accurate responses. This application is useful for both beginners and experts in Blockchain.",
   },
   {
     id: 3,
-    category: "PHOTOSHOP",
-    totalLike: "630",
-    title: "Logo design creativity & Application ",
+    category: "DEVELOPMENT",
+    title: "GolfGame - C++",
     image: img3,
+    desc: "The Blockchain Chatbot Application provides information on Blockchain by answering users' questions. It uses natural language recognition to understand requests and provide accurate responses. This application is useful for both beginners and experts in Blockchain.",
   },
-  {
-    id: 4,
-    category: "FIGMA",
-    totalLike: "360",
-    title: "Mobile app landing design & Services",
-    image: img4,
-  },
-  {
-    id: 5,
-    category: "WEB DESIGN",
-    totalLike: "280",
-    title: "Design for tecnology & services",
-    image: "./image/portfolio-05.jpg",
-  },
-  {
-    id: 6,
-    category: "WEB DESIGN",
-    totalLike: "690",
-    title: "App for tecnology & services",
-    image: "./image/portfolio-06.jpg",
-  },
+ 
 ];
 export default Portfolio_data;

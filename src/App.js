@@ -10,6 +10,8 @@ import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer";
 import "./App.css";
 
+//       <Blog />  entre testmoniales et contact
+
 const App = () => {
   return (
     <>
@@ -18,8 +20,8 @@ const App = () => {
       <Features />
       <Portfolio />
       <Resume />
+      <Blog /> 
       <Testimonial />
-      {/*<Blog />*/}
       <Contact />
       <Footer />
     </>
